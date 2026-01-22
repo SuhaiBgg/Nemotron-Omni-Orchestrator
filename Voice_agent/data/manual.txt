@@ -1,0 +1,175 @@
+AI & Agentic Systems — Core Knowledge Manual
+
+1. Artificial Intelligence (AI)
+
+Artificial Intelligence refers to systems that can perform tasks that
+normally require human intelligence. Examples: reasoning, learning,
+perception, language understanding, and decision-making.
+
+Main branches: - Narrow AI: Specialized in one task (chatbots,
+recommenders, face recognition) - General AI (AGI): Human-level
+intelligence across tasks (research goal) - Super AI: Beyond human
+intelligence (theoretical)
+
+2. Machine Learning (ML)
+
+Machine Learning is a subset of AI where systems learn patterns from
+data.
+
+Types: - Supervised learning (labeled data) – classification,
+regression - Unsupervised learning (no labels) – clustering,
+dimensionality reduction - Reinforcement learning – learning via rewards
+and penalties
+
+Common algorithms: - Linear/Logistic Regression - Decision Trees, Random
+Forests - Support Vector Machines - k-Means, PCA - Q-Learning, Policy
+Gradients
+
+3. Deep Learning (DL)
+
+Deep Learning is a subset of ML using neural networks with many layers.
+
+Popular architectures: - ANN (Artificial Neural Networks) - CNN
+(Convolutional Neural Networks) – images, vision - RNN / LSTM / GRU –
+sequences, time-series - Transformers – NLP, vision, multimodal systems
+
+4. Large Language Models (LLMs)
+
+LLMs are transformer-based models trained on massive text data to
+understand and generate language.
+
+Capabilities: - Question answering - Summarization - Code generation -
+Reasoning and planning
+
+Limitations: - Hallucinations - Knowledge cutoff - Lack of true
+understanding - Sensitive to prompts
+
+5. AI Agents
+
+An AI agent is an autonomous or semi-autonomous system that: - Perceives
+environment - Reasons about goals - Takes actions using tools
+
+Core components: - LLM (brain) - Memory (short-term, long-term, vector
+memory) - Tools (APIs, databases, code, web, devices) - Planning and
+reasoning module - Orchestrator / controller
+
+Types of agents: - Reactive agents - Planning agents - Tool-using
+agents - Multi-agent systems
+
+6. Agentic AI
+
+Agentic AI refers to systems built from multiple cooperating agents
+that: - Communicate with each other - Specialize in tasks - Self-reflect
+and adapt - Orchestrate workflows
+
+Examples: - Research agents - Coding agents - Customer support agents -
+Autonomous business agents
+
+7. Retrieval-Augmented Generation (RAG)
+
+RAG combines information retrieval with text generation.
+
+Pipeline: 1. User query 2. Convert query to embedding 3. Search vector
+database 4. Retrieve relevant chunks 5. Inject context into prompt 6.
+Generate grounded response
+
+Benefits: - Reduces hallucinations - Enables private knowledge use -
+Keeps models up to date
+
+Key parts: - Document loader - Text splitter - Embedding model - Vector
+store - Retriever - Generator (LLM)
+
+8. Embeddings and Vector Databases
+
+Embeddings are numerical vector representations of text, images, or
+audio.
+
+Vector databases store and search embeddings efficiently.
+
+Examples: - FAISS - Chroma - Pinecone - Weaviate - Milvus
+
+Use cases: - Semantic search - Recommendation - Clustering - Memory for
+agents
+
+9. LangChain
+
+LangChain is a framework for building LLM-powered applications.
+
+Provides: - Prompt templates - Chains and pipelines - Tool integration -
+Agents - Memory modules - RAG components
+
+Common building blocks: - LLM wrappers - Chains - Tools - Retrievers -
+Output parsers
+
+10. LangGraph
+
+LangGraph is a framework for building stateful, multi-agent, and cyclic
+workflows.
+
+Key ideas: - Graph-based execution - Nodes as agents/functions - Edges
+as transitions - Supports loops, memory, checkpoints
+
+Use cases: - Multi-agent systems - Long-running workflows -
+Human-in-the-loop agents - Complex orchestration
+
+11. Prompt Engineering
+
+Prompt engineering is the practice of designing inputs to guide LLM
+behavior.
+
+Techniques: - Zero-shot prompting - Few-shot prompting -
+Chain-of-thought - ReAct (Reason + Act) - Self-reflection - Role
+prompting
+
+Good prompts: - Are clear and specific - Define role and goal - Provide
+constraints - Specify output format
+
+12. Tools and Function Calling
+
+Modern LLM systems integrate tools such as: - Databases - Search
+engines - Code interpreters - APIs - Devices and sensors
+
+Agent workflow: - Think - Choose tool - Execute tool - Observe result -
+Refine answer
+
+13. Memory in Agents
+
+Types of memory: - Short-term (conversation state) - Long-term (vector
+store, documents) - Episodic memory (past actions) - Semantic memory
+(facts)
+
+Memory improves: - Personalization - Context retention - Learning over
+time
+
+14. Evaluation of RAG and Agents
+
+Common metrics: - Retrieval precision/recall - Faithfulness - Answer
+relevance - Latency - Cost - User satisfaction
+
+Evaluation methods: - Automated benchmarks - Human review - Logging and
+tracing - A/B testing
+
+15. Safety and Reliability
+
+Important concerns: - Hallucinations - Bias - Data leakage - Prompt
+injection - Over-reliance
+
+Best practices: - Grounding with RAG - Input/output validation - Access
+control - Monitoring and logging - Human oversight
+
+16. Glossary
+
+AI – Artificial Intelligence
+ML – Machine Learning
+DL – Deep Learning
+LLM – Large Language Model
+Agent – Autonomous AI system
+RAG – Retrieval-Augmented Generation
+Embedding – Vector representation of data
+Vector DB – Database for similarity search
+LangChain – LLM application framework
+LangGraph – Agent workflow framework
+
+------------------------------------------------------------------------
+
+End of manual.
